@@ -1,6 +1,6 @@
-baseURL = "INGRESAR-URL-PROPIA-DE-GITHUB"
+baseURL = "/"
 languageCode = "en-us"
-title = "Nombre Alumno"
+title = "TarekNW"
 themesDir = "themes"
 theme = "hugo-whisper-theme"
 
