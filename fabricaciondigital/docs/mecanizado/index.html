@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Objetivos del Curso - TarekNW</title>
+  <title>Entrega 2 - TarekNW</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://TarekNW.github.io/fabricaciondigital/favicon.png">
@@ -110,11 +110,11 @@
       <a href="https://TarekNW.github.io/fabricaciondigital/docs/entregaplanimetrias/">Entrega 1</a>
     </li>
     
-    <li class="">
+    <li class="active ">
       <a href="https://TarekNW.github.io/fabricaciondigital/docs/mecanizado/">Entrega 2</a>
     </li>
     
-    <li class="active ">
+    <li class="">
       <a href="https://TarekNW.github.io/fabricaciondigital/docs/objetivos/">Objetivos del Curso</a>
     </li>
     
@@ -129,19 +129,29 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Objetivos del Curso</h1>
+<h1 class="title">Entrega 2</h1>
 <div class="content ">
-  <p>Objetivos general y específico de Fabricación Digital</p>
-<h3 id="objetivo-general">Objetivo General</h3>
-<ol>
-<li>Comprender y dominar una serie de estrategias de fabricación digital utilizando software CAD/CAM que permitan simular las principales técnicas contemporáneas.</li>
-</ol>
-<h3 id="objetivo-específicos">Objetivo Específicos</h3>
-<ol>
-<li>Comprender e implementar un flujo de trabajo CAD/CAM</li>
-<li>Integrar diversas estrategias de fabricación digital para la simulación de fabricación digital.</li>
-<li>Entender los software de diseño 3D desde una perspectiva de fabricación.</li>
-</ol>
+  <h2 id="mecanizado-cnc">Mecanizado CNC</h2>
+<p>El Mecanizado CNC (Control númerico computarizado) consiste en un mecanismo de automatización mediante diversos comandos informáticos o softwares que controlan las actividades de la máquina-herramienta que se esta utilizando.</p>
+<p>Foto</p>
+<p>Ahora mostraremos como se realiza el mecanizado CNC de una Silla Fresia mediante el programa FUSION 360</p>
+<h2 id="etapas">Etapas</h2>
+<p>Etapa 1</p>
+<p>Se crea un Sketch, simulando el tamaño de una plancha de madera (1220 mm x 1220 mm), al que luego se le hace un extrude de 15 mm.
+Luego separaremos las piezas de la silla y con el comando &ldquo;ALIGN&rdquo;, alinearemos cada parte con la plancha creada.</p>
+<p>foto</p>
+<p>Etapa 2</p>
+<p>Luego de tener nuestras piezas correctamente alineadas, cambiaremos el menú de &ldquo;Design&rdquo; a &ldquo;Manufacture&rdquo;.
+Creamos el comando &ldquo;Set-Up&rdquo; para definir los ejes en que la maquina hará el trabajo.</p>
+<p>foto</p>
+<p>Etapa 3</p>
+<p>Despues del Set-Up que guia a la maquina respecto a los ejes que debe seguir, usaraemos las herramientas 2D Contour, donde seleccionaremos la parte inferior de todos los orificios de únion que poseen nuestras piezas. Esta misma herramienta posee un menú donde debemos seleccionar la pestaña &ldquo;Passes&rdquo;/&ldquo;Multiple Depths&rdquo;/&ldquo;Max.Roughing Stepdown&rdquo; y cambiarlo a 3 mm. Esto es clave para que la maquina haga más pasadas y la pieza quede bien.
+Damos en el boton &ldquo;OK&rdquo; y nos pedira elegir la fresia a utilizar. En este caso es: 6 mm Diametro con Flat end mill.</p>
+<p>foto
+foto o video</p>
+<p>Etapa 4</p>
+<p>Ahora se utilizara el comando &ldquo;2D Pocket&rdquo; y se seleccionaran todos los espacios que se observan en la foto, para luego hacer el mismo procedimiento anterior, donde ponemos 3 mm en &ldquo;Multiple Depths&rdquo;</p>
+<p>Foto</p>
 
 </div>
 </div>
