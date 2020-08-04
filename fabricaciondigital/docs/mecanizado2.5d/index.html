@@ -141,20 +141,20 @@
 <p>La creacion de piezas mediante el mecanizado en 3 ejes logran sacar todo el provecho de la maquina fresadora ya que como se dijo anteriormente se pueden controlar los 3 ejes a medida que la maquina hace los cortes.</p>
 <h2 id="pasos-respaldo-silla-fresia">Pasos Respaldo Silla Fresia</h2>
 <p>PASO 1:</p>
-<p>Luego de tener nuestro respaldo exportado en una nueva ventana de Fusion 360, debemos posicionarlo lo más cercano al origen de forma acostado, como vemos en la siguiente foto
-<img src="/fabricaciondigital/img/cnc2/11.jpg" alt="Mecanizado"></p>
+<p>Luego de tener nuestro respaldo exportado en una nueva ventana de Fusion 360, debemos posicionarlo lo más cercano al origen de forma acostado, como vemos en la siguiente foto</p>
+<p><img src="/fabricaciondigital/img/cncd/11.jpg" alt="MecanizadoD1"></p>
 <p>PASO 2:</p>
 <p>Realizaremos un &ldquo;Sketch&rdquo; rectangular que contenga todo el respaldo y le haremos un extrude hasta pasar levemente la altura del respaldo.</p>
-<p><img src="/fabricaciondigital/img/cnc2/22.jpg" alt="Mecanizado"></p>
+<p><img src="/fabricaciondigital/img/cncd/22.jpg" alt="MecanizadoD2"></p>
 <p>Despues de esto haremos otro &ldquo;Sketch&rdquo; seleccionando la parte superior de nuestra figura. Luego le diremos a la maquina el área y los limites donde trabajara, seleccionando en la barra superior &ldquo;Create&rdquo; &raquo;&gt; &ldquo;Project&rdquo; y seleccionamos el respaldo que se proyectara como en la siguiente imagen</p>
-<p><img src="/fabricaciondigital/img/cnc2/222.jpg" alt="Mecanizado"></p>
+<p><img src="/fabricaciondigital/img/cncd/222.jpg" alt="MecanizadoD3"></p>
 <p>PASO 3:</p>
 <p>Cambiamos el modo de &ldquo;Design&rdquo; a &ldquo;Manufacture&rdquo; y generamos un &ldquo;SetUp&rdquo;. Seleccionaremos en la ventana de &ldquo;SetUp&rdquo; la opción &ldquo;AutoDesk Generic 3 Axis&rdquo;.
 Luego en &ldquo;Operation Type&rdquo; seleccionamos &ldquo;Milling&rdquo;, en la siguiente pestaña definiremos el &ldquo;Stock&rdquo; y en la opcion &ldquo;Mode&rdquo;, elegimos &ldquo;From Solid&rdquo; y seleccionamos la plancha de terciado.
 Volveremos a &ldquo;SetUp&rdquo; para elegir la orientación en que se movera la máquina, presionamos &ldquo;Orientation&quot;&raquo;&gt;&quot;Z axis/plane &amp; X axis&rdquo;.
 Luego en &ldquo;Z axis&rdquo; selecionamos la parte superior de la plancha y en &ldquo;X axis&rdquo; seleccionamos el punto superior frontal.
 Para finalizar este paso en &ldquo;Stock Point&rdquo; elegimos &ldquo;Box Point&rdquo;, definiendo el punto de origen como el superior derecho y sleccionamos el respaldo en &ldquo;Model&rdquo;</p>
-<p><img src="/fabricaciondigital/img/cnc2/33.jpg" alt="Mecanizado"></p>
+<p><img src="/fabricaciondigital/img/cncd/33.jpg" alt="MecanizadoD4"></p>
 <p>PASO 4:</p>
 <p>Se comienza el desvaste del respaldo presionando el comando de la barra superior &ldquo;2D&quot;&raquo;&gt;&quot;Adaptative Clearing&rdquo; y en la opción &ldquo;Tools&rdquo; elegimos nuestra fresa, en este caso &ldquo;Flat end mill. 6mm de diámetro&rdquo; pero que tendremos que modificar ya que no alcanzara la profundidad necesaria que requiere el desvaste. esto se cambiara en &ldquo;Tool Library&rdquo;, duplicando nuestra fresa actual y presionando click derecho elegimos &ldquo;Edit Tool&quot;&raquo;&gt;&quot;General Description&rdquo; renombramos nuestra fresa para que luego en la pestaña &ldquo;Cutter&rdquo; le cambiamos el &ldquo;Lenght Below Cutter&rdquo; al doble &raquo;&gt; 40 mm &raquo;&gt; ok.
 por último iremos a la pestaña &ldquo;Passes&rdquo; &raquo;&gt; &ldquo;Optimal Load&rdquo; &raquo;&gt; 3 mm.</p>
