@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Configuración - TarekNW</title>
+  <title>Trabajo Grupal - TarekNW</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://TarekNW.github.io/fabricaciondigital/favicon.png">
@@ -106,11 +106,11 @@
       <a href="https://TarekNW.github.io/fabricaciondigital/docs/macetero/">Macetero Biodegradable</a>
     </li>
     
-    <li class="">
+    <li class="active ">
       <a href="https://TarekNW.github.io/fabricaciondigital/docs/bioplastico/">Trabajo Grupal</a>
     </li>
     
-    <li class="active ">
+    <li class="">
       <a href="https://TarekNW.github.io/fabricaciondigital/docs/configuracion/">Configuración</a>
     </li>
     
@@ -145,36 +145,25 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Configuración</h1>
+<h1 class="title">Trabajo Grupal</h1>
 <div class="content ">
-  <!-- raw HTML omitted -->
-<h2 id="highlighting-de-código">Highlighting de Código</h2>
-<p>Este tema utiliza el resaltado de código incorporado que se incluye con Hugo. <a href="https://gohugo.io/content-management/syntax-highlighting/">https://gohugo.io/content-management/syntax-highlighting/</a></p>
-<p>Puede insertar fragmentos de código en cualquier Markdown utilizando la sintaxis de highlighting, es decir:</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">```
-insertar código acá
-```
-</code></pre></div><p>Puede especificar el lenguaje de programación agregando una declaración después de los backticks</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">```html
-insertar código acá
-```
-</code></pre></div><h3 id="opciones-de-resaltado-de-código">Opciones de resaltado de código</h3>
-<p>Las opciones de resaltado de código se configuran en <code>config.toml</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">pygmentsCodeFences</span> <span class="p">=</span> <span class="kc">true</span>
-<span class="nx">pygmentsCodefencesGuessSyntax</span> <span class="p">=</span> <span class="kc">true</span>
-<span class="nx">pygmentsUseClasses</span> <span class="p">=</span> <span class="kc">true</span>
-</code></pre></div><h2 id="menú-principal">Menú principal</h2>
-<p>Configure el menú principal editando el <code>config.toml</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Inicio&#34;</span>
-    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/&#34;</span>
-    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
+  <p>Proceso Modelado 3D</p>
+<p>Paso 1:</p>
+<p>Se crean dos curvas Elipses, una dentro de la otra a la misma altura.</p>
+<p><img src="/fabricaciondigital/img/maceta/CR.png" alt="Rhino1"></p>
+<p>Paso 2:</p>
+<p>A ambas elipses se les hace un &ldquo;Extrude&rdquo; del tamaño deseado.</p>
+<p><img src="/fabricaciondigital/img/maceta/EX.png" alt="Rhino2"></p>
+<p>Paso 3:</p>
+<p>Cerramos las figuras con el comando &ldquo;Cap&rdquo; y la figura central la elevamos levemente.</p>
+<p><img src="/fabricaciondigital/img/maceta/CP.png" alt="Rhino3"></p>
+<p>Paso 4:</p>
+<p>Hacemos un &ldquo;Boolean Difference&rdquo;, seleccionando la figura grande primero y luego la figura central, con &ldquo;Delet Input&rdquo; activado.</p>
+<p><img src="/fabricaciondigital/img/maceta/BF.png" alt="Rhino4"></p>
+<p>Paso 5:</p>
+<p>Activamos el comando &ldquo;Fillet Edge&rdquo; y selecionamos todos los contornos de nuestra figura con la medida de 1 cm.!</p>
+<p><img src="/fabricaciondigital/img/maceta/FE.png" alt="Rhino6"></p>
 
-<span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Documentación&#34;</span>
-    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/docs/&#34;</span>
-    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
-</code></pre></div>
 </div>
 </div>
 
